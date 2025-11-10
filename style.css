@@ -33,6 +33,28 @@ h3 {
     text-decoration: none;
     font-size: 45px;
 }
+h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 35px;
+}
+h5 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-align: end;
+    font-size: 15px;
+}
 a {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -51,6 +73,26 @@ a:hover {
     margin-left: auto;
     margin-right: 25px;
 }
+#about-me {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-emphasis-color: var(--text-color);
+    border: solid;
+    border-color: var(--text-color);
+    border-radius: 25px;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#gif {
+    width: 100px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: -15px;
+}
 #social-links {
     color: var(--text-color);
     background-color: var(--background-color);
@@ -61,6 +103,7 @@ a:hover {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
     text-align: center;
 }
 #YouTube {
@@ -75,8 +118,15 @@ a:hover {
 #Repository {
     text-align: center;
 }
-#gif {
-    width: 100px;
-    margin-left: auto;
-    margin-right: 15px;
+#end {
+    border: solid;
+    border-color: #151515;
+    background-color: #151515;
+    color: #ffffff;
+    height: 175px;
+    padding-left: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 145px;
+    margin-bottom: -8px;
 }
