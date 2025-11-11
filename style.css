@@ -10,6 +10,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0px;
 }
 h1 {
     color: #ffffff;
@@ -22,9 +23,7 @@ h1 {
     border-color: #151515;
     background-color: #151515;
     padding: 5px;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-top: 0px;
 }
 h3 {
     font-family: "Bebas Neue", sans-serif;
@@ -32,6 +31,8 @@ h3 {
     font-style: normal;
     text-decoration: none;
     font-size: 45px;
+    border-top: dotted;
+    border-bottom: dotted;
 }
 h4 {
     font-family: "Bebas Neue", sans-serif;
@@ -73,6 +74,40 @@ a:hover {
     margin-left: auto;
     margin-right: 25px;
 }
+#gif {
+    width: 100px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: -15px;
+}
+#welcome {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-emphasis-color: var(--text-color);
+    border: solid;
+    border-color: var(--text-color);
+    border-radius: 25px;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#misc {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-emphasis-color: var(--text-color);
+    border: solid;
+    border-color: var(--text-color);
+    border-radius: 25px;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 #about-me {
     color: var(--text-color);
     background-color: var(--background-color);
@@ -85,14 +120,10 @@ a:hover {
     padding-right: 5px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
     text-align: left;
 }
-#gif {
-    width: 100px;
-    margin-left: auto;
-    margin-right: 15px;
-    margin-top: -15px;
-}
+
 #social-links {
     color: var(--text-color);
     background-color: var(--background-color);
@@ -100,7 +131,9 @@ a:hover {
     border: solid;
     border-color: var(--text-color);
     border-radius: 25px;
-    width: 35%;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -125,8 +158,5 @@ a:hover {
     color: #ffffff;
     height: 175px;
     padding-left: 5px;
-    margin-left: -8px;
-    margin-right: -8px;
     margin-top: 145px;
-    margin-bottom: -8px;
 }
